@@ -645,7 +645,19 @@ transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+}
+.div-user {
+    position: relative;
+    width: 100%;   
+}
+.input-user {
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4); 
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent; 
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
