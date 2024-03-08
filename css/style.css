@@ -640,6 +640,8 @@ transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .btn-modal:hover,
 .btn-modal:focus {
     fill: #ffffff;
+    background-color: #404bbf;
+    border: none; 
 }
 .modal-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
