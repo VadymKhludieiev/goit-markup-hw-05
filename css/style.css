@@ -507,55 +507,70 @@ transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .icon-footer-svg {
     fill:#f4f4fd;
 }
+.form {
+    display: block;
+}
 .form-p {
-    margin-bottom: 16px; 
-    font-weight: 500; 
-    font-size: 16px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em; 
+    font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  margin-left: 92px;
     color: #ffffff;
 }
 .form-main {
     display: flex;
-    /* gap: 24px ; */
+  align-items: center;
+  gap: 24px;
+  margin-left: 88px;
+  margin-right: auto;
 }
 .form-label {
     gap: 24px ;
 }
 .input-email {
-    width: 264px; 
-    height: 40px; 
-    border: 1px solid #ffffff;
-    background-color: transparent; 
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    outline: transparent;
+    background-color: transparent;
+    color: #fff;
     font-size: 12px;
+    font-weight: 400;
     line-height: 2;
-    letter-spacing: 0.04em; 
-    padding-left: 16px; 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px; 
-    color: #ffffff; 
-
+    letter-spacing: 0.04em;
+    padding-left: 16px;
 }
-.placeholder {
+.input-email::placeholder {
     color: #ffffff;
 }
 .btn-subscribe {
     min-width: 165px;
     height: 40px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     display: flex;
+    padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto", sans-serif ;
-    font-size: 16px ;
-    font-weight: 500;
-    line-height: 1.5 ;
-    letter-spacing: 0.04em;
-    color: #ffffff ;
-    cursor: pointer;
-    background-color: #4D5AE5 ;
-    border: none;
+    gap: 16px;
     border-radius: 4px;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    border: none;
 }
 .svg-btn {
-    margin-left: 16px;
+    fill: #ffffff;
+  margin-left: 16px;
 }
+.svg-btn:hover,
+.svg-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
