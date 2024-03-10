@@ -382,7 +382,7 @@ transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 72px;
 }
 .portfolio-list-content:hover {
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .portfolio-list-content {
@@ -700,9 +700,9 @@ transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .checkbox-container {
     margin-bottom: 24px;
 }
-.input-checkbox .visually-hidden {
+/* .input-checkbox .visually-hidden { */
     
-}
+/* } */
 .checkbox-label {
     font-size: 12px;
     line-height: 1.17;
@@ -720,4 +720,30 @@ transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     justify-content: center; 
     fill: transparent;
+}
+.span-svg {
+
+}
+.input-checkbox:checked + .form-privacy > .span-checkbox {
+    color:#404bbf; 
+    border: none;
+    fill:#F4F4FD;
+}
+.privacy-link {
+    color: #4d5ae5;
+}
+.btn-checkbox {
+    display: block;
+    min-width: 169px;
+    height: 56px ;
+    font-family: "Roboto", sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5 ;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
