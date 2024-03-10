@@ -724,7 +724,7 @@ transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .span-svg {
 
 }
-.input-checkbox:checked + .form-privacy > .span-checkbox {
+.input-checkbox:checked + .input-checkbox > .span-checkbox {
     color:#404bbf; 
     border: none;
     fill:#F4F4FD;
