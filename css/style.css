@@ -733,6 +733,7 @@ transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #4d5ae5;
 }
 .btn-checkbox {
+    margin: auto;
     display: block;
     min-width: 169px;
     height: 56px ;
